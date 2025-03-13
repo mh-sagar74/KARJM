@@ -19,6 +19,9 @@ export default function Footer() {
           </Typography>
         </Box>
         <Box>
+          <div className="border border-stone-400 h-[100px]" />
+        </Box>
+        <Box>
           <Typography variant="h6" gutterBottom>
             Location
           </Typography>
@@ -26,6 +29,9 @@ export default function Footer() {
             RG5X+59W, Haji Ismail Rd,
             <br /> Banargati Bazar, Khulna, Bangladesh
           </Typography>
+        </Box>
+        <Box>
+          <div className="border border-stone-400 h-[100px]" />
         </Box>
         <Box>
           <Typography variant="h6" gutterBottom>

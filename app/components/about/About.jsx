@@ -13,13 +13,17 @@ export default function About() {
         architecture and tranquil atmosphere, making it a peaceful place for
         worship. The mosque provides prayer facilities only for men, ensuring
         that everyone feels welcome and comfortable. Additionally, the mosque is
-        kid-friendly. For those with mobility needs, the Khanjahan Ali
-        Rahmatullah Jame Masjid offers wheelchair amenities. There is a
-        designated prayer space available to accommodate individuals using
-        wheelchairs, ensuring that they can participate in the prayers without
-        any difficulty. While specific details about parking, toilets, and Odhu
-        facilities for wheelchair users are not provided, it can be assumed that
-        efforts are made to cater to the needs of individuals with disabilities.
+        kid-friendly.
+        <br />
+        <br />
+        For those with mobility needs, the Khanjahan Ali Rahmatullah Jame Masjid
+        offers wheelchair amenities. There is a designated prayer space
+        available to accommodate individuals using wheelchairs, ensuring that
+        they can participate in the prayers without any difficulty. While
+        specific details about parking, toilets, and Odhu facilities for
+        wheelchair users are not provided, it can be assumed that efforts are
+        made to cater to the needs of individuals with disabilities.
+        <br />
         With its friendly and helpful imam, this mosque not only serves as a
         place of worship but also as a community center. The imam is known for
         his approachability and eagerness to assist those who visit the mosque.
