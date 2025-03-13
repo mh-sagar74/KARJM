@@ -11,7 +11,7 @@ export default function Home() {
           Khanjahan Ali Rahmatullah Jame Masjid (KARJM)
         </span>
       </Typography>
-      <Grid2 container spacing={3} className="justify-center">
+      <Grid2 container spacing={3} rowGap={6} className="justify-center">
         <Box className="w-[700px] shadow-lg rounded-md">
           <ImageSlideshowCard />
         </Box>
