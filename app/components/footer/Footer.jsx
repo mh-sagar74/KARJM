@@ -32,7 +32,7 @@ export default function Footer() {
             Contacts
           </Typography>
           <Typography variant="subtitle2">FaceBook</Typography>
-          <Typography variant="subtitle2">WhatsApp</Typography>
+          <Typography variant="subtitle2">karjm@gmail.com</Typography>
         </Box>
       </Grid2>
       <Typography variant="caption">
