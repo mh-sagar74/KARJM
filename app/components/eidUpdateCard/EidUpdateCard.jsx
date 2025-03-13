@@ -2,7 +2,7 @@ import { Grid2, Typography } from "@mui/material";
 
 export default function EidUpdateCard() {
   return (
-    <Grid2 container className="justify-center" rowGap={8}>
+    <Grid2 container className="justify-center" rowGap={6}>
       <Typography variant="h4" gutterBottom>
         Eid-Ul-Fitr Update
       </Typography>
