@@ -15,11 +15,11 @@ export default function Home() {
         <Box className="w-[700px] shadow-lg rounded-md">
           <ImageSlideshowCard />
         </Box>
-        <Box className="flex flex-col gap-12 w-[700px]">
+        <Box className="flex flex-col gap-12 w-[600px]">
           <Box className="p-5 h-[380px] shadow-lg rounded-md bg-gradient-to-r from-teal-400 to-yellow-200">
             <PrayerTimeCard />
           </Box>
-          <Box className="p-5 h-[250px] shadow-lg rounded-md bg-red-50">
+          <Box className="p-5 h-[250px] shadow-lg rounded-md bg-red-50 bg-stone-200">
             <EidUpdateCard />
           </Box>
         </Box>

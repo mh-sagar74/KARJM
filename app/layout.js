@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Box, Grid } from "@mui/system";
 import karjm from "@/public/KARJM.png";
 import Image from "next/image";
+import Footer from "./components/footer/Footer";
 
 const roboto = Roboto({
   weight: "400",
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased`}>
-        <Box className="bg-gradient-to-r from-violet-200 to-pink-200 pt-3 pb-3 sticky top-0 z-50">
+        <Box className="bg-gradient-to-r from-yellow-200 to-pink-200 pt-3 pb-3 sticky top-0 z-50">
           <Grid
             container
             sx={{
@@ -70,6 +71,9 @@ export default function RootLayout({ children }) {
         </Box>
         <Box className="ml-[20px] mr-[20px] mt-[20px] mb-[20px] p-5">
           <Suspense>{children}</Suspense>
+        </Box>
+        <Box>
+          <Footer />
         </Box>
       </body>
     </html>
