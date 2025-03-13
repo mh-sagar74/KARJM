@@ -20,7 +20,7 @@ export default function PrayerTimeCard() {
   const waqt = ["Waqt", "05:58", "12:12", "04:30", "06:13", "07:25", "12:20"];
 
   const prayerTimes = [
-    "Prayer Name",
+    "Prayer Time",
     "05:58",
     "01:30",
     "04:30",
