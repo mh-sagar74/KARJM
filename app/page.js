@@ -20,7 +20,7 @@ export default function Home() {
         <Box className="p-5 w-[600px] shadow-lg rounded-md bg-red-50 bg-stone-200">
           <About />
         </Box>
-        <Box className="w-[650px] rounded-md">
+        <Box className="w-[700px] rounded-md">
           <Iframe />
         </Box>
         <Box className="flex flex-col gap-12 w-[600px]">
