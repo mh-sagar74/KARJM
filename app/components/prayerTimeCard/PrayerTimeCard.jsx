@@ -7,6 +7,7 @@ export default function PrayerTimeCard() {
   const d = new Date();
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
+
   const prayerNames = [
     "Prayer Name",
     "Fajr",
@@ -17,16 +18,16 @@ export default function PrayerTimeCard() {
     "Jumuah",
   ];
 
-  const waqt = ["Waqt", "05:58", "12:12", "04:30", "06:13", "07:25", "12:20"];
+  const waqt = ["Waqt", "05:58", "01:00", "04:45", "06:15", "07:45", "12:20"];
 
   const prayerTimes = [
     "Prayer Time",
-    "05:58",
+    "+15 min",
     "01:30",
-    "04:30",
-    "06:13",
-    "07:25",
-    "01:20",
+    "05:00",
+    "06:30",
+    "08:15",
+    "01:15",
   ];
 
   useEffect(() => {
