@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased`}>
-        <Box className="bg-gradient-to-r from-yellow-200 to-pink-200 pt-3 pb-3 sticky top-0 z-50">
+        <Box className="bg-gradient-to-r from-yellow-200 to-pink-200 pt-3 pb-3 sticky top-0 z-50 shadow-sm">
           <Grid
             container
             sx={{
