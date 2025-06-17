@@ -1,9 +1,9 @@
 import { Box, Grid2, Typography } from "@mui/material";
 import ImageSlideshowCard from "./components/imageSlideshowCard/ImageSlideshowCard";
 import PrayerTimeCard from "./components/prayerTimeCard/PrayerTimeCard";
-import EidUpdateCard from "./components/eidUpdateCard/EidUpdateCard";
 import Iframe from "./components/iframe/Iframe";
 import About from "./components/about/About";
+import UpdateCard from "./components/updateCard/EidUpdateCard";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
             <PrayerTimeCard />
           </Box>
           <Box className="p-5 h-[200px] shadow-lg rounded-md bg-red-50 bg-stone-200">
-            <EidUpdateCard />
+            <UpdateCard />
           </Box>
         </Box>
       </Grid2>
