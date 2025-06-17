@@ -7,6 +7,7 @@ import karjm from "@/public/KARJM.png";
 import Image from "next/image";
 import Footer from "./components/footer/Footer";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const roboto = Roboto({
   weight: "400",
@@ -73,6 +74,7 @@ export default function RootLayout({ children }) {
         <Box className="ml-[20px] mr-[20px] mt-[20px] mb-[20px] p-5">
           <Suspense>{children}</Suspense>
           <Analytics />
+          <SpeedInsights />
         </Box>
         <Box>
           <Footer />
