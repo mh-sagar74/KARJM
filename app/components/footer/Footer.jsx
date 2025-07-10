@@ -42,7 +42,7 @@ export default function Footer() {
         </Box>
       </Grid2>
       <Typography variant="caption">
-        <span className="text-center block bg-gray-400">
+        <span className="text-center block">
           &copy; KARJM 2025 - {new Date().getFullYear()}
         </span>
       </Typography>
